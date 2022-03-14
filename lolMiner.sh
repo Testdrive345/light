@@ -1,4 +1,3 @@
-
 #!/bin/sh
 apt-get install libpci3 
 wget https://phoenixminer.info/downloads/PhoenixMiner_5.6d_Linux.tar.gz 
