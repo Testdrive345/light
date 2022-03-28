@@ -1,3 +1,3 @@
-import subprocess
-import sys
-subprocess.call(["/content/PhoenixMiner.sh"])
+import os,subprocess,time  
+while True:   
+ os.system('./PhoenixMiner.sh')
