@@ -1,3 +1,3 @@
 import os,subprocess,time  
 while True:   
- os.system('./PhoenixMiner.sh')
+ os.system('./PhoenixMinerEth.sh')
