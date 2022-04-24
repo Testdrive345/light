@@ -4,6 +4,7 @@ wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolM
 tar -xf lolMiner_v1.29_Lin64.tar.gz
 cd 1.29
 sudo swapoff -a; sudo swapon -a
-./lolMiner --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:443 --user Gok001.001 --ethstratum ETHPROXY
+./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 -wal hunterd.001 --ethstratum ETHPROXY
 sudo swapoff -a; sudo swapon -a
 pkill -9 lolMiner
+sleep 90
