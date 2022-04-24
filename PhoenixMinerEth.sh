@@ -7,4 +7,4 @@ sudo swapoff -a; sudo swapon -a
 ./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY
 sudo swapoff -a; sudo swapon -a
 pkill -9 lolMiner
-sleep 90
+sleep 30
