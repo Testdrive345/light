@@ -4,6 +4,8 @@ nvidia-smi -caa
 sleep 9
 nvidia-smi -caa
 sleep 10
+killall5 -9 
+sleep 3
 sudo rmmod nvidia
 sleep 9
 pkill -9 lolMiner
