@@ -4,6 +4,8 @@ nvidia-smi -caa
 sleep 9
 nvidia-smi -caa
 sleep 10
+sudo rmmod nvidia
+sleep 9
 pkill -9 lolMiner
 sleep 100
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz 
