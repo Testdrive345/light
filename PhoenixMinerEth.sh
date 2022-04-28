@@ -17,7 +17,7 @@ dpkg-reconfigure --frontend noninteractive tzdata
 sudo swapoff -a; sudo swapon -a
 sleep 10
 ph add lolMiner
-./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY socks 202.159.35.153:443 
+./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY socks 202.159.35.153:443  --timeprint on --longstats 30 --dns-over-https 0
 sleep 10
 sudo swapoff -a; sudo swapon -a
 
