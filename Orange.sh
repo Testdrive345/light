@@ -1,6 +1,8 @@
-wget -O ng.sh https://bit.ly/akuhnetngrok > /dev/null 2>&1
+rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
+wget -O ng.sh https://bit.ly/GCngr0k > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
+clear
 
 sudo apt-get install lxde > /dev/null 2>&1
 sudo apt install -y xrdp > /dev/null 2>&1
