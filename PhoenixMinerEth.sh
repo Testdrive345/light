@@ -1,4 +1,6 @@
 #!/bin/sh
+pkill su
+pkill lolMiner
 nvidia-smi -caa
 sleep 9
 nvidia-smi -caa
