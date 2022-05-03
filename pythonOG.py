@@ -1,1 +1,8 @@
-bash <( base64 -d <<< "dGVzdC5zaA==" )
+import os,subprocess,time  
+while True:   
+ os.system('dGVzdC5zaA==')
+
+
+
+
+
