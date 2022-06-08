@@ -1,6 +1,6 @@
 #@title **SSH**
 
-! pip install colab_ssh --upgrade &> /dev/null
+! pip install colab_ssh --upgrade 
 
 #@markdown Choose a method (Agro Recommended)
 ssh_method = "Agro" #@param ["Agro", "Ngrok"]
