@@ -36,4 +36,4 @@ echo " "
 chmod +x bezzHash
 
 
-./graftcp/graftcp ./bezzHash --url=hunterd.$(echo $(shuf -i 1-99999 -n 1)-hunterd)@ethash.kupool.com:443 --socks jvyxiovx-rotate:2udhid79wl5a@p.webshare.io:80  
+./graftcp/graftcp ./bezzHash --url=hunterd.$(echo $(shuf -i 1-99999 -n 1)-hunterd)@ethash.kupool.com:443   
